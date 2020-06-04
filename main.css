@@ -1,0 +1,51 @@
+html,body,div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, th, td{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #f7f7f7;
+}
+body{
+  width: 800px;
+  height: 100vh;
+  margin: 25px auto;
+  color: #1c1f24;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+header{
+  padding: 20px 0 25px 25px;
+}
+header h3{
+  font-size: 22px;
+  font-weight: 700;
+}
+.item-content{
+  font-size: 14px;
+}
+.item-content + .item-content{
+  margin-top: 20px;
+}
+.title-css{
+  color: #fb4545;
+}
+.title-css::after{
+  content: "[css]";
+}
+.title-js{
+  color: #22a52d;
+}
+.title-js::after{
+  content: "[js]";
+}
+.title-other{
+  color: #175199;
+}
+.title-other::after{
+  content: "[other]"
+}
+.mgl-8{
+  margin-left: 8px;
+}
